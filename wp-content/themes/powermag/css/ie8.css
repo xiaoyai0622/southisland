@@ -1,0 +1,96 @@
+/* OLD IE VERSIONS CSS */
+
+/* @alpha */
+.flex-caption, .flex-control-nav, .entry-rating, .sliders flex-cat, .page-featured-title, .classic-blog .entry-posted-on, .single .entry-posted-on, .archive .entry-posted-on, .page .entry-posted-on, .search .entry-posted-on, .scrollup {
+	background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5222222,endColorstr=#E5222222)"; /* IE8 */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5222222, endColorstr=#E5222222);   /* IE6 & 7 */
+	zoom: 1;
+}
+/* @alphafull */
+#widgetized-footer #wp-calendar thead th, #widgetized-footer #wp-calendar tfoot #next, #widgetized-footer #wp-calendar tfoot #prev, #widgetized-footer #wp-calendar tfoot .pad {
+	background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000)"; /* IE8 */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000, endColorstr=#4C000000);   /* IE6 & 7 */
+	zoom: 1;
+}
+/*@alphawhite*/
+
+#widgetized-footer #wp-calendar tbody .pad:hover, #collapse-trigger {
+	background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FFFFFFF,endColorstr=#7FFFFFFF)"; /* IE8 */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FFFFFFF, endColorstr=#7FFFFFFF);   /* IE6 & 7 */
+	zoom: 1;
+}
+/* @alphablack */
+.rw-end .rw-overall-titles, .rw-user-rating-right {
+	background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000)"; /* IE8 */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000, endColorstr=#7F000000);   /* IE6 & 7 */
+	zoom: 1;
+}
+/*@alphasoft*/
+
+footer.entry-meta a:hover, #widgetized-footer #wp-calendar caption, #widgetized-footer #wp-calendar tbody td, #widgetized-footer .widget a.twtr-join-conv, #widgetized-footer .widget ul li, #widgetized-footer .info-stripe {
+	background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0C000000,endColorstr=#0C000000)"; /* IE8 */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0C000000, endColorstr=#0C000000);   /* IE6 & 7 */
+	zoom: 1;
+}
+/*@alphahover*/
+.main-small-navigation ul li a:hover {
+	background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#19000000,endColorstr=#19000000)"; /* IE8 */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#19000000, endColorstr=#19000000);   /* IE6 & 7 */
+	zoom: 1;
+}
+/*Others alphas*/
+
+#full-footer .widget-title-bg, .entry-rating {
+	background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000)"; /* IE8 */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000, endColorstr=#4C000000);   /* IE6 & 7 */
+	zoom: 1;
+}
+#full-footer h4 span.inner {
+	background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000)"; /* IE8 */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);   /* IE6 & 7 */
+	zoom: 1;
+}
+.info-stripe {
+	background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4CFFFFFF,endColorstr=#4CFFFFFF)"; /* IE8 */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4CFFFFFF, endColorstr=#4CFFFFFF);   /* IE6 & 7 */
+	zoom: 1;
+}
+.main-navigation ul ul ul a:hover, .main-navigation ul ul a:hover {
+	background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000)"; /* IE8 */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);   /* IE6 & 7 */
+	zoom: 1;
+}
+/* Generic Fixes */
+
+#widgetized-footer .info-stripe {
+	background: transparent;
+}
+.widget-title-bg .widget-title span.inner, .widget-title-bg .simil-widget-comment span.inner {
+	padding-right: 10px;
+}
+.widget .tweet .tweet_avatar img {
+	width: 25px;
+	height: 25px;
+}
+#collapse-trigger {
+	width: auto;
+	height: auto;
+	padding: 5px 10px;
+}
+.flex-control-nav {
+	padding-top: 8px!important;
+	height: 22px!important;
+}
+.rw-criteria.stars-preview.stars-small {
+	background: transparent!important;
+}

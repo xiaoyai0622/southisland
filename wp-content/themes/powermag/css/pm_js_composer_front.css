@@ -1,0 +1,108 @@
+/* POWERMAG CUSTOMIZATIONS */
+
+.wpb_separator,
+.vc_text_separator {
+  border-bottom: 1px dotted #ccc;
+}
+button.wpb_btn-large,
+span.wpb_btn-large {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.cta_align_left .wpb_button,
+.cta_align_right .wpb_button {
+  margin-top: 10px;
+}
+.wpb_call_to_action .wpb_call_text,
+#content .wpb_call_to_action .wpb_call_text {
+  margin-top: 7px;
+}
+.wpb_content_element .ui-tabs .ui-tabs-nav li:hover,
+.wpb_content_element .ui-accordion .ui-accordion-header:hover {
+  background:rgba(0,0,0,.08);
+}
+.wpb_tabs .ui-tabs .ui-tabs-panel,
+.wpb_accordion .ui-accordion .ui-accordion-content {
+  padding: 20px;
+  background-color: rgba(0,0,0,.05);
+}
+.wpb_tour .wpb_tab,
+.wpb_tour .wpb_tab.ui-tabs-panel {
+  padding: 20px 20px 0 21.739130434782606px;
+}
+.wpb_tour_next_prev_nav {
+  padding-bottom: 10px;
+  padding-right: 20px;
+  background: rgba(0,0,0,.05);
+}
+#content .wpb_accordion .ui-accordion .ui-accordion-header a,
+.wpb_accordion .ui-accordion .ui-accordion-header a /* djwd */ {
+    padding: 11px 0 7px 30px;
+	font-family: 'BebasNeueRegular', sans-serif;
+	font-size: 20px;
+	font-size: 1.25rem;
+}
+.wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header,
+.wpb_content_element.wpb_tabs .wpb_tour_tabs_wrapper .wpb_tab {
+  background: rgba(0,0,0,0.05);
+}
+#content .wpb_accordion .wpb_accordion_wrapper .ui-state-default .ui-icon,
+#content .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
+	left: 5px;
+	top: 20px;
+}
+.vc_text_separator div {
+  background-color: #e6e6e6;
+  border: 1px solid #ccc;
+  padding: 5px 12px 2px;
+  font-family: 'BebasNeueRegular', sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+}
+#content .wpb_content_element .ui-tabs .ui-tabs-nav {
+	font-family: 'BebasNeueRegular', sans-serif;
+	font-size: 20px;
+	font-size: 1.25rem;
+	list-style-type: none;
+}
+.wpb_content_element .ui-tabs .ui-tabs-nav li, 
+.wpb_content_element .ui-accordion .ui-accordion-header, 
+.wpb_tabs .ui-tabs .ui-tabs-panel {
+	background: rgba(0,0,0,0.05);
+}
+#content .wpb_content_element .ui-tabs .ui-tabs-nav {
+	font-family: 'BebasNeueRegular', sans-serif;
+	font-size: 20px;
+	font-size: 1.25rem;
+	list-style-type: none;
+}
+.wpb_content_element div.ui-tabs .ui-tabs-nav li {
+	background: rgba(0,0,0,0.03);
+}
+.wpb_content_element div.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	background: rgba(0,0,0,0.05);
+}
+.ui-tabs .ui-tabs-nav li a {
+	padding: 11px 15px 8px!important;
+}
+.wpb_tour .ui-tabs .ui-tabs-nav li:first-child {
+	margin: 0px 1px 0 0;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	margin-top: -7px!important;
+}
+
+/* New Fixes @since VC 4 - PM 1.7.0 */
+
+#content .wpb_row {
+	margin-left: 0;
+}
+
+#content .wpb_tour .wpb_tour_tabs_wrapper .wpb_tab {
+	padding: 15px 0 0 21.739130434782606px;
+}
+
+#content .wpb_gallery_slides .flex-control-nav {
+	padding: 8px 8px 21px 8px!important;
+}

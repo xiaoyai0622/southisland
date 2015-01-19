@@ -1,0 +1,545 @@
+/*
+Theme Name: PowerMag
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+.pull-right {
+	float: left;
+}
+.pull-left {
+	float: right;
+}
+.icon-chevron-left:before {
+	content: "\f054"
+}
+.icon-chevron-right:before {
+	content: "\f053"
+}
+.meta-nav {
+	display: none;
+}
+#logo {
+	float: right;
+}
+#top-ad {
+	margin-right: 30px;
+	float: right;
+}
+#full-bar form, #full-bar input[type="text"] {
+	margin: 0;
+}
+#full-bar form {
+	text-align: left;
+}
+.branding {
+	float: right;
+}
+.utilities {
+	float: left;
+}
+.utilities ul {
+	text-align: left;
+}
+.util-menu li, .footer-menu li {
+	padding-left: 5px;
+}
+.util-menu li:last-child, .footer-menu li:last-child {
+	padding-left: 0;
+}
+ul.socials {
+	margin: 15px 0 -7px;
+}
+ul.socials a {
+	float: right;
+}
+#footer-logo {
+	padding-left: 10px;
+	float: right;
+}
+#collapse-trigger {
+	width: 15px;
+	padding-right: 15px;
+}
+#newsletter .hidden-box-inner {
+	padding: 20px 0 0 0;
+}
+#newsletter .collapsible-custom {
+	padding-bottom: 20px;
+	text-align: right;
+}
+.main-navigation {
+	float: right;
+}
+.main-navigation ul {
+	padding-right: 0;
+}
+.main-navigation li {
+	float: right;
+	margin: 20px 0 0 20px;
+}
+.main-navigation li:last-child {
+	margin-left: 0;
+}
+.main-navigation .sub-menu li {
+	margin-left: 0;
+}
+.main-navigation a {
+	padding: 12px 20px 8px;
+}
+.main-navigation ul ul {
+	float: right;
+	position: absolute;
+	right: 0;
+}
+.main-navigation ul ul span.corner {
+	display: none;
+}
+.main-navigation ul ul ul {
+	right: 100%;
+	top: 0;
+}
+.corner {
+	left: 0;
+	right: auto;
+}
+.menu-toggle i {
+	float: left;
+}
+.classic-blog .entry-img-info, .single .entry-img-info, .archive .entry-img-info, .page .entry-img-info, .search .entry-img-info {
+	right: 0;
+	left: auto;
+}
+.classic-blog .entry-img-info .entry-posted-on, .single .entry-img-info .entry-posted-on, .archive .entry-img-info .entry-posted-on, .page .entry-img-info .entry-posted-on, .search .entry-img-info .entry-posted-on {
+	float: right;
+}
+footer.entry-meta span, footer.entry-meta a {
+	margin-left: 2px;
+	margin-right: 0;
+}
+footer.entry-meta li {
+	margin-right: -4px;
+}
+footer.entry-meta li:first-child {
+	margin-right: 0;
+}
+footer.entry-meta .edit-link {
+	margin-right: -3px;
+}
+.social-share li {
+	float: right;
+	padding-left: 20px;
+}
+.social-share li:last-child {
+	padding-left: 0;
+}
+.page-nav {
+	float: left;
+}
+.page-nav .page-numbers {
+	margin-right: 5px;
+	margin-left: 0;
+}
+.page-featured-title {
+	right: 0;
+}
+.pm-icon {
+	right: 50%;
+	left: auto;
+}
+.pm-icon i {
+	right: -50%;
+}
+.carousel li {
+	margin-left: 5px;
+	margin-right: 0;
+}
+.cat-angle {
+	left: 0;
+	right: auto;
+}
+.es-carousel ul li {
+	height: 100%;
+	float: right;
+}
+.es-carousel ul li:before {
+	content: "" !important;
+}
+#widgetized-footer .es-carousel-wrap .img-frame, #secondary .es-carousel-wrap .img-frame {
+	margin-left: 0;
+}
+.es-nav span.es-nav-next, .es-nav span.es-nav-prev {
+	left: 0;
+	right: auto;
+	padding: 15px;
+	opacity: 0.8;
+}
+.es-nav span.es-nav-prev {
+	left: auto;
+	right: 0px;
+}
+.carousel ul {
+	float: right;
+}
+.carousel ul li {
+	float: right;
+	margin-left: 10px;
+}
+.carousel ul li:last-child {
+	margin-left: 0;
+}
+.widget-title-bg .widget-title, .widget-title-bg .simil-widget-comment {
+	right: 0;
+}
+.widget-title-bg .widget-title span.inner, .widget-title-bg .simil-widget-comment span.inner {
+	padding-right: 10px;
+	padding-left: 0;
+}
+.cat-diagonal {
+	display: inline-block;
+	right: auto;
+	left: auto;
+}
+.cat-diagonal-inverse {
+	float: right;
+}
+.widget-post .left-wrap {
+	right: 0;
+}
+.widget-post .entry-date, .cat-panes-content .entry-date, .related-posts .entry-date {
+	float: right;
+	margin-left: 10px;
+}
+.widget-post .cat-angle, .cat-panes-content .cat-angle, .related-posts .cat-angle {
+	right: auto;
+	left: 0;
+}
+#widgetized-footer ul li:after, #secondary ul li:after {
+	content: "\f053";
+	padding-left: 10px;
+	padding-right: 0;
+}
+#widgetized-footer .social-count-plus ul li:after, #secondary .social-count-plus ul li:after {
+	content: "";
+}
+#widgetized-footer ul li:before, #secondary ul li:before {
+	display: none;
+}
+#widgetized-footer .img-frame, #secondary .img-frame {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+#widgetized-footer .custom-widget li:before, #secondary .custom-widget li:before {
+	display: none;
+}
+#widgetized-footer .flickr a, #secondary .flickr a {
+	float: right;
+	margin-left: 0.54054054054055% !important;
+}
+#widgetized-footer .flickr a:last-child, #secondary .flickr a:last-child {
+	margin-left: 0;
+}
+#widgetized-footer a.twtr-join-conv:before, #secondary a.twtr-join-conv:before {
+	padding-left: 5px;
+}
+.home .ads-widget.double-ad .left-ad {
+	float: right;
+}
+.home .ads-widget.double-ad .right-ad {
+	float: left;
+}
+.single .ads-widget.double-ad .left-ad {
+	margin-left: 20px;
+}
+}
+#wp-calendar tfoot #next {
+	text-align: left;
+}
+#comments .comment-author img {
+	float: left;
+}
+#comments .bypostauthor .widget-title-bg:before {
+	left: 40px;
+	right: auto;
+	padding: 0 10px;
+}
+.children:before {
+	right: -23px;
+}
+.reply {
+	left: 0;
+	right: auto;
+}
+#respond .icon-asterisk {
+	padding-right: 8px;
+}
+#respond .form-submit {
+	text-align: left;
+}
+#author-wrap .author-box .img-frame {
+	margin: 0 0 10px 20px;
+}
+#author-wrap.article-author .author-socials {
+	left: 0;
+}
+.author-socials {
+	margin: 11px 0 0 11px;
+}
+.author-socials a {
+	float: left;
+	margin: 2px 0 0 2px;
+}
+.author-socials.big-social-icons a {
+	float: right;
+}
+#LoginWithAjax.default, #LoginWithAjax_Register.default {
+	left: 0 !important;
+}
+#LoginWithAjax .close:before, #LoginWithAjax_Register .close:before {
+	font-family: 'FontAwesome';
+	left: 7px;
+}
+#LoginWithAjax .pm-logged-wrap .dropdown-menu, #LoginWithAjax_Register .pm-logged-wrap .dropdown-menu {
+	right: auto;
+	left: 0;
+}
+#LoginWithAjax .pm-logged-welcome, #LoginWithAjax_Register .pm-logged-welcome {
+	margin-left: 10px;
+}
+#LoginWithAjax .pm-logged-buttons, #LoginWithAjax_Register .pm-logged-buttons {
+	padding: 3px 0 0 5px;
+}
+#LoginWithAjax #LoginWithAjax_Title, #LoginWithAjax_Register #LoginWithAjax_Title {
+	padding: 5px 3px 0 5px;
+}
+#LoginWithAjax_Loading {
+	right: 0px;
+}
+#ticker-wrap .widget-title-bg {
+	float: right;
+}
+.ticker-swipe span {
+	margin-right: 1px;
+}
+.ticker-controls {
+	left: 11px;
+}
+.ticker-controls li {
+	margin-right: 5px;
+	float: right;
+}
+.no-js-news {
+	padding: 10px 45px 0px 0px;
+}
+.left .ticker-controls, .left .ticker-content, .left .ticker-title, .left .ticker {
+	float: right;
+}
+.left .ticker-controls {
+	padding-right: 6px;
+}
+.right .ticker-controls, .right .ticker-content, .right .ticker-title, .right .ticker {
+	float: left;
+}
+.right .ticker-controls {
+	padding-left: 6px;
+}
+.readmore {
+	padding-right: 3px;
+}
+.date {
+	float: left;
+}
+.date i {
+	padding-left: 5px;
+}
+.scrollup {
+	left: 20px;
+	right: auto;
+}
+@media screen and (max-width: 1200px) {
+.scrollup {
+	left: 0px;
+	right: auto;
+}
+}
+.sticky:before {
+	left: 0;
+	right: auto;
+}
+.entry-rating-wrap {
+	right: 0;
+	left: auto;
+}
+.entry-rating {
+	right: 0;
+}
+#rating-box span.criteria-stars-color {
+	left: 20px;
+	right: auto;
+}
+@media (max-width: 979px) {
+#rating-box {
+	width: 100% !important;
+}
+}
+.rw-end .rw-summary {
+	margin-left: 141px;
+	margin-right: 0;
+}
+.rw-end .rw-overall {
+	left: 0;
+	right: auto;
+}
+.rw-end #rw-overall-stars-color {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 18px;
+	display: block;
+	background: url(../images/star-sprite.png) scroll transparent no-repeat;
+}
+span.percentage-digits {
+	left: 10px;
+	right: auto;
+}
+span.criteria-description {
+	right: 10px;
+}
+.rw-user-rating-wrapper .count {
+	left: 0px;
+}
+.rw-user-rating-wrapper .score {
+	left: 0;
+}
+.rw-user-rating-desc {
+	padding: 13px 10px 0 140px;
+}
+.rw-user-rating-right {
+	left: 0;
+	right: auto;
+}
+.info-stripe .cat-stripe {
+	border-left: 1px dotted #ccc;
+}
+.info-stripe .post-attribute {
+	border-left: 1px dotted #ccc;
+}
+.info-stripe i {
+	border-right: 1px dotted #ccc;
+}
+.info-stripe .percent-stripe {
+	float: left;
+	padding: 2px 10px 1px 5px;
+}
+.wpcf7 img.ajax-loader {
+	float: left;
+	margin: -22px 0 0 20px;
+}
+.wpcf7 .wpcf7-not-valid-tip {
+	right: 20%;
+}
+.wpcf7 .wpcf7-not-valid-tip:before {
+	padding-left: 5px;
+}
+.wpcf7 .wpcf7-validation-errors:before {
+	padding-left: 5px;
+}
+.wpcf7 .wpcf7-mail-sent-ok:before {
+	padding-left: 5px;
+}
+.gallery-item {
+	float: right;
+}
+.gallery-caption:before {
+	right: 0;
+	left: auto;
+}
+#widgetized-footer .custom-widget ul li:after, #secondary .custom-widget ul li:after {
+	content: "";
+}
+#widgetized-footer .social-count-plus img, #secondary .social-count-plus img {
+	margin-left: 20px;
+	margin-right: 0;
+	float: right;
+}
+#widgetized-footer .social-count-plus .social-count-txt, #secondary .social-count-plus .social-count-txt {
+	float: right;
+	margin-top: 5px;
+}
+#widgetized-footer .social-count-plus .social-count-go, #secondary .social-count-plus .social-count-go {
+	float: left;
+}
+.cat-tabs ul li a {
+	border-left: 1px dotted rgba(255,255,255,0.5);
+	float: right;
+}
+.cat-panes-content li.panes {
+	padding-left: 10px;
+}
+.cat-panes-content .panes-left {
+	right: 0;
+}
+.cat-panes-content .panes-right {
+	padding-right: 80px;
+}
+.cat-angle, .corner {
+	transform: rotate(90deg);
+	-ms-transform: rotate(90deg); /* IE 9 */
+	-webkit-transform: rotate(90deg); /* Safari and Chrome */
+}
+.cat-diagonal {
+	-webkit-transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+#collapse-trigger {
+	right: auto;
+	left: 0;
+	-webkit-transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleYX(-1);
+	-ms-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.flex-control-nav {
+	left: 0;
+}
+.twtr-doc {
+	text-align: right!important;
+}
+.twtr-avatar {
+	float: right!important;
+}
+#twtr-widget-1 .twtr-tweet-text {
+	margin-left: 0!important;
+	margin-right: 40px;
+}
+#widgetized-footer ul.custom-widget li:after, #secondary ul.custom-widget li:after, #widgetized-footer .es-carousel ul li:after, #secondary .es-carousel ul li:after {
+	display: none;
+}
+.date {
+	padding: 0;
+}
+.ticker-controls li {
+	float: left;
+	margin-right: 0;
+	margin-left: 5px;
+}
+.ticker-controls {
+	right: auto;
+	left: 11px;
+	margin: 0;
+}
